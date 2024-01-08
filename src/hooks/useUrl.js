@@ -1,5 +1,5 @@
 export function useUrl() {
-	const FRONT_URL = "http://localhost:5173/";
+	const FRONT_URL = window.location.origin + "/";
 	const BACK_URL = "http://localhost:3000/";
 
 	return {
