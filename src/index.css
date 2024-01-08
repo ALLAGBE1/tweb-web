@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Inter:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.hideScrollBar::-webkit-scrollbar {
+    display: none;
+}
+
+
+.slick-arrow {
+    display: none;
+}
